@@ -1,0 +1,65 @@
+[
+    {
+        "name": "stomp-php/stomp-php",
+        "version": "4.4.0",
+        "version_normalized": "4.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/stomp-php/stomp-php.git",
+            "reference": "7822745d0e938f46466e0da92d8e0450c74be4eb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/stomp-php/stomp-php/7822745d0e938f46466e0da92d8e0450c74be4eb.zip",
+            "reference": "7822745d0e938f46466e0da92d8e0450c74be4eb",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.6 || ^7.0"
+        },
+        "require-dev": {
+            "phpmd/phpmd": "^2.6",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "^2.9"
+        },
+        "time": "2018-03-19T19:21:05+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Stomp\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Dejan Bosnanac",
+                "email": "dejan@nighttale.net",
+                "homepage": "http://www.nighttale.net"
+            },
+            {
+                "name": "Sören Rohweder",
+                "email": "s.rohweder@blage.net",
+                "homepage": "http://www.monofone.de"
+            },
+            {
+                "name": "Jens Radtke",
+                "email": "swefl@fin-sn.de",
+                "homepage": "http://www.fin-sn.de"
+            }
+        ],
+        "description": "stomp support for PHP",
+        "homepage": "http://github.com/stomp-php/stomp-php",
+        "keywords": [
+            "activeMQ",
+            "apollomq",
+            "jms",
+            "messaging",
+            "rabbitmq",
+            "stomp"
+        ]
+    }
+]
