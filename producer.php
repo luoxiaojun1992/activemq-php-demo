@@ -13,6 +13,8 @@ $stomp = new StatefulStomp(
 
 while (true) {
     // send a message to the queue
-    $stomp->send('/queue/test', new Message('test'));
+    $stomp->send('/queue/test', new Message('test', [
+        'AMQ_SCHEDULED_DELAY' => 10000,
+    ]));
     echo "Sent message with body 'test'\n";
 }
