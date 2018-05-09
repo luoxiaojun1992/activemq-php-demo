@@ -11,12 +11,20 @@ class ComposerStaticInit3706cc32c3642a7fab949eeffc4353f6
         array (
             'Stomp\\' => 6,
         ),
+        'P' => 
+        array (
+            'PhpAmqpLib\\' => 11,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Stomp\\' => 
         array (
             0 => __DIR__ . '/..' . '/stomp-php/stomp-php/src',
+        ),
+        'PhpAmqpLib\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-amqplib/php-amqplib/PhpAmqpLib',
         ),
     );
 

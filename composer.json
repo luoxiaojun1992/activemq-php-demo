@@ -1,5 +1,5 @@
 {
 	"require": {
-        	"stomp-php/stomp-php": "4.*"
-    	}
+		"stomp-php/stomp-php": "4.*"
+	}
 }

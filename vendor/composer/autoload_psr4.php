@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Stomp\\' => array($vendorDir . '/stomp-php/stomp-php/src'),
+    'PhpAmqpLib\\' => array($vendorDir . '/php-amqplib/php-amqplib/PhpAmqpLib'),
 );
